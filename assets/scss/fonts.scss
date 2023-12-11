@@ -1,0 +1,219 @@
+$font-family-Inter-regular: "Inter", sans-serif;
+$font-family-Inter-medium: "Inter-Medium", sans-serif;
+$font-family-Inter-semi-bold: "Inter-Semi-Bold", sans-serif;
+$font-family-Inter-bold: "Inter-Bold", sans-serif;
+$font-family-Roboto-bold: "Roboto-Bold", sans-serif;
+
+@mixin font-base {
+  font-style: normal;
+  line-height: 140%;
+  -webkit-font-smoothing: antialiased;
+}
+
+// ------- Regular -------
+
+@mixin fontInter14Regular {
+  font-size: rem(14);
+  font-family: $font-family-Inter-regular;
+  line-height: 22px;
+  font-weight: 400;
+
+  @include font-base;
+}
+
+@mixin fontInter16Regular {
+  font-size: rem(16);
+  font-family: $font-family-Inter-regular;
+  line-height: 150%;
+  font-weight: 400;
+
+  @include font-base;
+}
+
+@mixin fontInter18Regular {
+  font-size: rem(18);
+  font-family: $font-family-Inter-regular;
+  line-height: 120%;
+  font-weight: 400;
+
+  @include font-base;
+}
+
+@mixin fontInter20Regular {
+  font-size: rem(20);
+  font-family: $font-family-Inter-regular;
+  line-height: 120%;
+  font-weight: 400;
+
+  @include font-base;
+}
+
+@mixin fontInter22Regular {
+  font-size: rem(22);
+  font-family: $font-family-Inter-regular;
+  line-height: 120%;
+  font-weight: 400;
+
+  @include font-base;
+}
+
+@mixin fontInter30Regular {
+  font-size: rem(30);
+  font-family: $font-family-Inter-regular;
+  line-height: 140%;
+  font-weight: 400;
+
+  @include font-base;
+}
+
+// ------- Medium -------
+
+@mixin fontInter16Medium {
+  font-size: rem(16);
+  font-family: $font-family-Inter-medium;
+  line-height: 150%;
+  font-weight: 500;
+
+  @include font-base;
+}
+
+@mixin fontInter20Medium {
+  font-size: rem(20);
+  font-family: $font-family-Inter-medium;
+  line-height: 150%;
+  font-weight: 500;
+
+  @include font-base;
+}
+
+@mixin fontInter22Medium {
+  font-size: rem(22);
+  font-family: $font-family-Inter-medium;
+  line-height: 120%;
+  font-weight: 500;
+
+  @include font-base;
+}
+
+@mixin fontInter28Medium {
+  font-size: rem(28);
+  font-family: $font-family-Inter-medium;
+  line-height: 140%;
+  font-weight: 500;
+
+  @include font-base;
+}
+
+// ------- SemiBold -------
+
+@mixin fontInter24SemiBold {
+  font-size: rem(24);
+  font-family: $font-family-Inter-semi-bold;
+  line-height: 140%;
+  font-weight: 600;
+
+  @include font-base;
+}
+
+@mixin fontInter44SemiBold {
+  font-size: rem(44);
+  font-family: $font-family-Inter-semi-bold;
+  line-height: 120%;
+  font-weight: 600;
+
+  @include font-base;
+}
+
+// ------- Bold -------
+
+@mixin fontInter20Bold {
+  font-size: rem(20);
+  font-family: $font-family-Inter-bold;
+  line-height: 140%;
+  font-weight: 700;
+
+  @include font-base;
+}
+
+@mixin fontInter24Bold {
+  font-size: rem(24);
+  font-family: $font-family-Inter-bold;
+  line-height: 140%;
+  font-weight: 700;
+
+  @include font-base;
+}
+
+@mixin fontInter28Bold {
+  font-size: rem(28);
+  font-family: $font-family-Inter-bold;
+  line-height: 120%;
+  font-weight: 700;
+
+  @include font-base;
+}
+
+@mixin fontInter30Bold {
+  font-size: rem(30);
+  font-family: $font-family-Inter-bold;
+  line-height: 140%;
+  font-weight: 700;
+
+  @include font-base;
+}
+
+@mixin fontInter32Bold {
+  font-size: rem(32);
+  font-family: $font-family-Inter-bold;
+  line-height: 140%;
+  font-weight: 700;
+
+  @include font-base;
+}
+
+@mixin fontInter40Bold {
+  font-size: rem(40);
+  font-family: $font-family-Inter-bold;
+  line-height: 120%;
+  font-weight: 700;
+
+  @include font-base;
+}
+
+@mixin fontInter48Bold {
+  font-size: rem(48);
+  font-family: $font-family-Inter-bold;
+  line-height: 120%;
+  font-weight: 700;
+
+  @include font-base;
+}
+
+@mixin fontInter60Bold {
+  font-size: rem(60);
+  font-family: $font-family-Inter-bold;
+  line-height: 120%;
+  font-weight: 700;
+
+  @include font-base;
+}
+
+// ------- Roboto Bold -------
+
+@mixin fontRoboto32Bold {
+  font-size: rem(32);
+  font-family: $font-family-Roboto-bold;
+  line-height: 140%;
+  font-weight: 700;
+
+  @include font-base;
+}
+
+@mixin fontInter24RobotoBold {
+  font-size: rem(24);
+  font-family: $font-family-Roboto-bold;
+  line-height: 140%;
+  font-weight: 700;
+
+  @include font-base;
+}

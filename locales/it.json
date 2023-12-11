@@ -1,0 +1,185 @@
+{
+  "button": {
+    "leaveRequest": "Lascia una richiesta",
+    "request": "Invia una richiesta",
+    "returnSite": "Ritorno al sito",
+    "showLess": "Mostra di più"
+  },
+  "link": {
+    "directions": "Direzioni",
+    "offer": "Cosa offriamo",
+    "cases": "Сasi",
+    "contacts": "Contatti"
+  },
+  "modal": {
+    "title": "La sua candidatura è stata inoltrata con successo!"
+  },
+  "form": {
+    "name": "Nome*",
+    "phone": "Numero di telefono*",
+    "email": "Email",
+    "topic": "Argomento di discussione"
+  },
+  "checkbox": {
+    "accept": "Accetta ",
+    "privacyPolicy": "l'informativa sulla privacy"
+  },
+  "tab": {
+    "development": "Sviluppo",
+    "discovery": "Discovery",
+    "product": "Supporto e sviluppo del prodotto"
+  },
+  "tag": {
+    "productManager": "Responsabile del prodotto",
+    "businessAnalyst": "Analista aziendale",
+    "projectManage": "Responsabile del progetto",
+    "designer": "UX/UI designer",
+    "marketer": "Marketer"
+  },
+  "workResult": {
+    "canvasModel": "Descrizione del prodotto in Lean Canvas Model",
+    "bpmn": "Diagrammi dei processi aziendali (BPMN)",
+    "wireframes": "Wireframe del prodotto",
+    "detailedBacklog": "Backlog dettagliato di funzionalità",
+    "visionScope": "Ambito completo dei requisiti aziendali in Vision & Scope",
+    "audience": "Determinazione del pubblico target",
+    "backlog": "Backlog",
+    "analys": "Analisi funzionale dei concorrenti",
+    "model": "Modello finanziario con calcolo del punto di pareggio",
+    "roadmap": "Roadmap di sviluppo del progetto",
+    "uiUx": "Analisi UI/UX dei concorrenti"
+  },
+  "textBlock": {
+    "development": {
+      "name": "Sviluppo",
+      "description": "- aiutiamo a creare prodotti e soluzioni innovativi che soddisfino le vostre esigenze e contribuiscano alla crescita del progetto."
+    },
+    "startupDiscovery": {
+      "name": "Startup Discovery",
+      "description": "- costruiamo una strategia per un avvio di successo del tuo progetto."
+    },
+    "productSupport": {
+      "name": "Supporto e sviluppo del prodotto",
+      "description": "- supportiamo le prestazioni dei prodotti IT dopo il lancio e siamo anche pronti per il loro miglioramento continuo."
+    },
+    "shortenedDiscoveryPhase": {
+      "name": "La fase di Discovery abbreviata",
+      "description": "- è per chi ha pianificato lo sviluppo di un prodotto e chi ha bisogno di descriverlo correttamente."
+    },
+    "discoveryPhase": {
+      "name": "Fase di Discovery Estesa",
+      "description": "- per chi ha un'idea per un progetto B2C o B2B e chi ha bisogno di uno studio dettagliato della sua fattibilità."
+    }
+  },
+  "card": {
+    "softwareDevelopment": {
+      "title": "Sviluppo software",
+      "description": "Creiamo soluzioni web individuali di qualsiasi complessità."
+    },
+    "blockchainSolutions": {
+      "title": "Blockchain soluzioni",
+      "description": "Sviluppiamo contratti e applicazioni blockchain basati su blockchain."
+    },
+    "mobile": {
+      "title": "Mobile",
+      "description": "Sviluppiamo applicazioni mobili."
+    }
+  },
+  "supportCard": {
+    "development": {
+      "development": "Sviluppo di nuove funzionalità",
+      "troubleshooting": "Risoluzione dei problemi",
+      "prompt": "Risposta immediata",
+      "testing": "Monitoraggio e test regolari del sistema",
+      "implementation": "Implementazione di integrazioni, dai pagamenti online ai sistemi CRM complessi",
+      "product": "Ottimizzazione delle prestazioni dei prodotti"
+    },
+    "system": {
+      "consultations": "Consultazioni (con qualsiasi metodo di comunicazione conveniente)",
+      "troubleshooting": "Risoluzione dei problemi",
+      "backup": "Backup",
+      "administrative": "Lavoro amministrativo con server, spazio su disco, dominio, hosting, tariffe di hosting, ecc.",
+      "backupManagement": "Gestione del backup e ripristino del sistema",
+      "serverProtection": "Consultazioni (con qualsiasi metodo di comunicazione conveniente)"
+    }
+  },
+  "title": {
+    "coreTeam": "Squadra centrale",
+    "additionally": "Ulteriori",
+    "team": "Squadra",
+    "results": "Risultati del lavoro",
+    "developmentSupport": "Supporto allo sviluppo",
+    "systemSupport": "Supporto del sistema"
+  },
+  "directions": {
+    "title": "La nostra competenza per il vostro prodotto IT",
+    "advise": "Consigliamo le startup IT",
+    "launch": "Lanciamo i progetti passo dopo passo",
+    "help": "Vi aiutiamo ad entrare nel mercato"
+  },
+  "areas": {
+    "tech": "Tech",
+    "food": "Food",
+    "prop": "Prop",
+    "ed": "Ed",
+    "hr": "Hr",
+    "health": "Health",
+    "retail": "Retail",
+    "others": "e altri"
+  },
+  "offer": {
+    "title": "Cosa offriamo"
+  },
+  "technologies": {
+    "title": "We are already working with entrepreneurs from different areas:",
+    "startup": "Strategia di startup/sviluppo del business",
+    "landing": "Landing pages",
+    "websites": "Siti web",
+    "support": "Supporto tecnico per prodotti esistenti",
+    "webApplications": "Applicazioni Web",
+    "applications": "Applicazioni",
+    "internetMarkets": "Negozi online"
+  },
+  "ourCases": {
+    "our": "I nostri",
+    "cases": "casi",
+    "asset": {
+      "title": "Asset",
+      "description": "Sviluppo di un'applicazione per i residenti dei villaggi cottage."
+    },
+    "todayPrice": {
+      "title": "TodayPrice",
+      "description": "Sviluppo di un servizio per la vendita di appartamenti."
+    },
+    "amCapital": {
+      "title": "AmCapital",
+      "description": "Sviluppo di una piattaforma applicativa per gli investimenti internazionali."
+    },
+    "club500": {
+      "title": "Club 500",
+      "description": "Sviluppare una piattaforma di investimento per un business club premium."
+    },
+    "GPSTruck": {
+      "title": "GPSTruck",
+      "description": "Sviluppo di una piattaforma per ottimizzare il lavoro di logisti e autisti nel campo del trasporto merci."
+    },
+    "hivvy": {
+      "title": "Hivvy",
+      "description": "Sviluppo di una piattaforma per l’outstaffing del personale."
+    },
+    "pixpulse": {
+      "title": "PIXPULSE",
+      "description": "Sviluppo di un'applicazione per la generazione di immagini basata su Stable Diffusione."
+    },
+    "empty": {
+      "title": "Un posto per il vostro progetto"
+    }
+  },
+  "contacts": {
+    "title": "Restano domande?",
+    "description": "Compilate il modulo e vi contatteremo."
+  },
+  "footer": {
+    "privacyPolicy": "Politica sulla privacy"
+  }
+}

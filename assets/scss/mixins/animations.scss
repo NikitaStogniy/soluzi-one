@@ -1,0 +1,43 @@
+$easing: ease;
+$timing: 0.6s;
+$timingDefaultTransition: 0.3s;
+
+@mixin defaultTransition($args...) {
+	transition-timing-function: $easing;
+	transition-duration: $timingDefaultTransition;
+	transition-property: $args;
+}
+
+@mixin fadeIn($delay) {
+	@at-root body:not(.no-animate) & {
+		opacity: 0;
+		@include defaultTransition(opacity);
+		transition-delay: $delay;
+	}
+
+	@at-root body:not(.no-animate) &.animate {
+		opacity: 1;
+	}
+
+	//@at-root html:not(.has-scroll-init) & {
+	//	transform: unset !important;
+	//	opacity: 1 !important;
+	//}
+}
+
+@mixin fadeInChild($delay) {
+	@at-root body:not(.no-animate) & {
+		opacity: 0;
+		@include defaultTransition(opacity);
+		transition-delay: $delay;
+	}
+
+	@at-root body:not(.no-animate) .animate & {
+		opacity: 1;
+	}
+
+	//@at-root html:not(.has-scroll-init) & {
+	//	transform: unset !important;
+	//	opacity: 1 !important;
+	//}
+}

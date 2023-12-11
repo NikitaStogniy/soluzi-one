@@ -1,0 +1,9 @@
+$grid-breakpoints: (
+	sm: 0,
+	md: 640px,
+	lg: 990px,
+  xl: 1440px,
+	xxl: 1920px,
+) !default;
+
+$grid-max-width: 1440px;

@@ -1,0 +1,185 @@
+{
+  "button": {
+    "leaveRequest": "Leave a request",
+    "request": "Request",
+    "returnSite": "Return to site",
+    "showLess": "Show less"
+  },
+  "link": {
+    "directions": "Directions",
+    "offer": "What we offer",
+    "cases": "Cases",
+    "contacts": "Contacts"
+  },
+  "modal": {
+    "title": "Your application has been successfully submitted!"
+  },
+  "form": {
+    "name": "Name*",
+    "phone": "Phone number*",
+    "email": "Email",
+    "topic": "Topic of discussion"
+  },
+  "checkbox": {
+    "accept": "Accept ",
+    "privacyPolicy": "privacy policy"
+  },
+  "tab": {
+    "development": "Development",
+    "discovery": "Discovery",
+    "product": "Product support and development"
+  },
+  "tag": {
+    "productManager": "Product Manager",
+    "businessAnalyst": "Business analyst",
+    "projectManage": "Project manager",
+    "designer": "UX/UI designer",
+    "marketer": "Marketer"
+  },
+  "workResult": {
+    "canvasModel": "Product description in Lean Canvas Model",
+    "bpmn": "Business Process Diagrams (BPMN)",
+    "wireframes": "Product wireframes",
+    "detailedBacklog": "Detailed backlog functionality",
+    "visionScope": "Vision & Scope",
+    "audience": "Determining the target audience",
+    "backlog": "Backlog",
+    "analys": "Functional analysis of competitors",
+    "model": "Financial model with break-even point calculation",
+    "roadmap": "Project development roadmap",
+    "uiUx": "UI/UX analysis of competitors"
+  },
+  "textBlock": {
+    "development": {
+      "name": "Development",
+      "description": "- we help create innovative products and solutions that meet your needs and contribute to the growth of the project."
+    },
+    "startupDiscovery": {
+      "name": "Startup Discovery",
+      "description": "- we build a strategy for a successful start of your project."
+    },
+    "productSupport": {
+      "name": "Product support and development",
+      "description": "- we support the performance of IT products after launch, and are also ready for their continuous improvement."
+    },
+    "shortenedDiscoveryPhase": {
+      "name": "The shortened Discovery phase",
+      "description": "- is for those who have a product planned for development and who need to correctly describe it."
+    },
+    "discoveryPhase": {
+      "name": "Extended Discovery phase",
+      "description": "- for those who have an idea for a B2C or B2B project and who require a detailed study of its feasibility."
+    }
+  },
+  "card": {
+    "softwareDevelopment": {
+      "title": "Software Development",
+      "description": "We create individual web solutions of any complexity."
+    },
+    "blockchainSolutions": {
+      "title": "Blockchain solutions",
+      "description": "We develop blockchain contracts and applications based on blockchain."
+    },
+    "mobile": {
+      "title": "Mobile",
+      "description": "We develop mobile applications."
+    }
+  },
+  "supportCard": {
+    "development": {
+      "development": "Development of new functionality",
+      "troubleshooting": "Troubleshooting",
+      "prompt": "Prompt response",
+      "testing": "Regular system monitoring and testing",
+      "implementation": "Implementation of integrations from online payment to complex CRM systems",
+      "product": "Product performance optimization"
+    },
+    "system": {
+      "consultations": "Consultations (by any convenient method of communication)",
+      "troubleshooting": "Troubleshooting",
+      "backup": "Backup",
+      "administrative": "Administrative work with the server, disk space, domain, hosting, hosting tariffs, etc.",
+      "backupManagement": "Backup management and system recovery",
+      "serverProtection": "Configuring server protection against malware and activities"
+    }
+  },
+  "title": {
+    "coreTeam": "Core team",
+    "additionally": "Additionally",
+    "team": "Team",
+    "results": "Results of the work",
+    "developmentSupport": "Development support",
+    "systemSupport": "System support"
+  },
+  "directions": {
+    "title": "Our expertise for your IT product",
+    "advise": "We advise IT startups",
+    "launch": "We launch projects step by step",
+    "help": "We help you enter the market"
+  },
+  "areas": {
+    "tech": "Tech",
+    "food": "Food",
+    "prop": "Prop",
+    "ed": "Ed",
+    "hr": "Hr",
+    "health": "Health",
+    "retail": "Retail",
+    "others": "and others"
+  },
+  "offer": {
+    "title": "What we offer"
+  },
+  "technologies": {
+    "title": "We are already working with entrepreneurs from different areas:",
+    "startup": "Startup/business development strategy",
+    "landing": "Landing pages",
+    "websites": "Websites",
+    "support": "Technical support for existing products",
+    "webApplications": "Web applications",
+    "applications": "Applications",
+    "internetMarkets": "Internet markets"
+  },
+  "ourCases": {
+    "our": "Our",
+    "cases": "cases",
+    "asset": {
+      "title": "Asset",
+      "description": "Development of an application for residents of cottage villages."
+    },
+    "todayPrice": {
+      "title": "TodayPrice",
+      "description": "Development of a service for selling apartments."
+    },
+    "amCapital": {
+      "title": "AmCapital",
+      "description": "Development of an international investment platform application."
+    },
+    "club500": {
+      "title": "Club 500",
+      "description": "Developing an investment platform for a premium business club."
+    },
+    "GPSTruck": {
+      "title": "GPSTruck",
+      "description": "Development of a platform for optimizing the work of logisticians and drivers in the field of cargo transportation."
+    },
+    "hivvy": {
+      "title": "Hivvy",
+      "description": "Development of a platform for personnel outstaffing."
+    },
+    "pixpulse": {
+      "title": "PIXPULSE",
+      "description": "Developing an image generation application based on Stable Diffusion."
+    },
+    "empty": {
+      "title": "Place for your project"
+    }
+  },
+  "contacts": {
+    "title": "Still have <br /> a questions?",
+    "description": "Fill out the form and we will contact you."
+  },
+  "footer": {
+    "privacyPolicy": "Privacy policy"
+  }
+}
