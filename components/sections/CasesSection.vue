@@ -46,13 +46,13 @@
 import CaseCard from '@/components/cards/CaseCard.vue'
 import UiButton from '@/components/ui/UiButton.vue'
 
-import AssetImage from '@/assets/images/cases/asset.png'
+import AssetImage from '@/assets/images/cases/ASSET.png'
 import TodayPrice from '@/assets/images/cases/todayprice.png'
 import Club500 from '@/assets/images/cases/club500.png'
 import AMCapital from '@/assets/images/cases/am-capital.png'
-import Hivvy from '@/assets/images/cases/hivvy.png'
+import Hivvy from '@/assets/images/cases/Hivvy.png'
 import GPSTruck from '@/assets/images/cases/gps-truck.png'
-import Pixpulse from '@/assets/images/cases/pixpulse.png'
+import Pixpulse from '@/assets/images/cases/PIXPULSE.png'
 
 import { scrollToElementById } from '~/utils/scroll-to-element'
 
