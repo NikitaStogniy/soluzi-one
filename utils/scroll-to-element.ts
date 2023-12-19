@@ -5,8 +5,7 @@ export const scrollToElementById = (id: string): void => {
     return
   }
 
-  const yOffset = -50;
-  const y = currentElement.getBoundingClientRect().top + window.pageYOffset + yOffset;
+  const y = currentElement.getBoundingClientRect().top + window.pageYOffset;
 
   window.scrollTo({
     top: y,

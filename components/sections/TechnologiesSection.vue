@@ -63,13 +63,11 @@ const technologies: TechnologyCardParams[] = [
 
   &__list {
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 12px;
-    flex-wrap: wrap;
     flex-flow: row wrap;
-    align-items: stretch;
+    gap: 12px;
 
     @include media-breakpoint-up(md) {
       gap: 18px;
@@ -100,10 +98,9 @@ const technologies: TechnologyCardParams[] = [
     }
 
     @include media-breakpoint-up(md) {
-      width: 316px;
       height: 192px;
       row-gap: 24px;
-      max-width: initial;
+      max-width: 316px;
     }
   }
 

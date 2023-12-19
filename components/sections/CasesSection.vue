@@ -105,12 +105,14 @@ const cases: CaseCardParams[] = [
 
   &__list {
     display: flex;
-    justify-content: space-around;
-    flex-flow: row wrap;
+    flex-direction: column;
     align-items: stretch;
     gap: rem(12);
 
     @include media-breakpoint-up(md) {
+      justify-content: center;
+      flex-flow: row wrap;
+      flex-wrap: wrap;
       gap: rem(20);
     }
   }
@@ -119,7 +121,11 @@ const cases: CaseCardParams[] = [
     flex-grow: 2;
 
     &--short {
-      flex-grow: 0;
+      flex-grow: initial;
+
+      @include media-breakpoint-up(md) {
+        flex-grow: 0;
+      }
     }
 
     &--empty {

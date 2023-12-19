@@ -3,7 +3,7 @@
   "description": "A better nuxt3 starter template",
   "private": false,
   "scripts": {
-    "dev": "nuxt dev --port 4000",
+    "dev": "nuxt dev --host",
     "build": "nuxt build",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
@@ -27,10 +27,13 @@
   "dependencies": {
     "@vuelidate/core": "^2.0.3",
     "@vuelidate/validators": "^2.0.4",
+    "papaparse": "^5.4.1",
     "pinia": "^2.1.6",
     "sass": "^1.69.5",
     "vue-bem-cn": "^1.1.1",
     "vue-final-modal": "^4.5.0",
-    "vue-i18n": "^9.4.0"
+    "vue-i18n": "^9.4.0",
+    "vue-json-excel3": "^1.0.19",
+    "xlsx": "^0.18.5"
   }
 }

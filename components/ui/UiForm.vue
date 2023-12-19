@@ -1,7 +1,7 @@
 <template>
   <form
     class="ui-form"
-    @submit.prevent="open"
+    @submit.prevent="openModal"
   >
     <div class="ui-form__fields">
       <div class="ui-form__field">
@@ -60,6 +60,16 @@
       {{ $t('button.leaveRequest') }}
     </UiButton>
 
+    <download-excel
+      class="ui-form__excel"
+      worksheet="My Worksheet"
+      name="filename.xls"
+      :fields="excelFields"
+      :data="displayedExcelData"
+    >
+      <span ref="excelTable" />
+    </download-excel>
+
     <ModalsContainer />
   </form>
 </template>
@@ -82,11 +92,17 @@ interface FormParams {
   isPrivacyPolicyAccepted: boolean
 }
 
+const excelFields = {
+  name: "name",
+  phone: 'phone',
+  email: 'email',
+  topic: 'topic',
+}
+
 const formRules = {
   name: { required },
   phone: { required },
   email: { required, email },
-  topic: { required },
   isPrivacyPolicyAccepted: { required }
 }
 
@@ -99,6 +115,13 @@ const form: FormParams = reactive({
 })
 
 const v$ = useVuelidate(formRules, form)
+const excelTable = ref(null)
+
+const displayedExcelData = computed(() => {
+  const { name, phone, email, topic } = form
+
+  return [{ name, phone, email, topic }]
+})
 
 const { open, close } = useModal({
   component: UiModal,
@@ -118,6 +141,13 @@ const clearForm = (): void => {
   form.email = ''
   form.topic = ''
   form.isPrivacyPolicyAccepted = false
+}
+
+const openModal = (): void => {
+  if (excelTable.value)
+    (excelTable.value as HTMLElement).click()
+
+  open()
 }
 </script>
 
@@ -178,6 +208,10 @@ const clearForm = (): void => {
       margin-top: 56px;
       max-width: 247px;
     }
+  }
+
+  &__excel {
+    display: none;
   }
 }
 </style>

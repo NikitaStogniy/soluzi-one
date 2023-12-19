@@ -63,13 +63,12 @@ const areas: AreaCardParams[] = [
 
     color: $color-black;
     text-align: center;
-    margin: 0 auto;
     font-size: rem(20);
-    max-width: 270px;
 
     @include media-breakpoint-up(md) {
       max-width: 893px;
       font-size: rem(48);
+      margin: 0 auto;
     }
   }
 

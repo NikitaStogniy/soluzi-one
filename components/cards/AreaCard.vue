@@ -34,6 +34,7 @@ defineProps<Props>()
   padding: 20px;
   border-radius: 10px;
   flex-grow: 2;
+  white-space: nowrap;
 
   &:last-child {
     flex-grow: 0;
