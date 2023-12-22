@@ -63,8 +63,8 @@ const cases: CaseCardParams[] = [
   { image: TodayPrice, title: 'ourCases.todayPrice.title', text: 'ourCases.todayPrice.description', isShort: false },
   { image: AMCapital, title: 'ourCases.amCapital.title', text: 'ourCases.amCapital.description', isShort: false },
   { image: Club500, title: 'ourCases.club500.title', text: 'ourCases.club500.description', isShort: true },
-  { image: Hivvy, title: 'ourCases.GPSTruck.title', text: 'ourCases.GPSTruck.description', isShort: true },
-  { image: GPSTruck, title: 'ourCases.hivvy.title', text: 'ourCases.hivvy.description', isShort: false },
+  { image: Hivvy, title: 'ourCases.hivvy.title', text: 'ourCases.hivvy.description', isShort: true },
+  { image: GPSTruck, title: 'ourCases.GPSTruck.title', text: 'ourCases.GPSTruck.description', isShort: false },
   { image: Pixpulse, title: 'ourCases.pixpulse.title', text: 'ourCases.pixpulse.description', isShort: false },
 ]
 </script>

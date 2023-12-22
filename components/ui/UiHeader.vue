@@ -266,6 +266,7 @@ const onScrollToElement = (id: string): void => {
 
     color: $color-grey-text-02;
     font-size: rem(18);
+    white-space: nowrap;
   }
 
   &__button {
