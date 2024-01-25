@@ -5,10 +5,5 @@ export const scrollToElementById = (id: string): void => {
     return
   }
 
-  const y = currentElement.getBoundingClientRect().top + window.pageYOffset;
-
-  window.scrollTo({
-    top: y,
-    behavior: 'smooth'
-  });
+  currentElement.scrollIntoView({ block: 'start', behavior: 'smooth' })
 }
