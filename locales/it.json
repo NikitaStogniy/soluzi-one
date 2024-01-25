@@ -6,9 +6,9 @@
     "showLess": "Mostra di più"
   },
   "link": {
-    "directions": "Direzioni",
-    "offer": "Cosa offriamo",
-    "cases": "Сasi",
+    "directions": "Mission",
+    "offer": "Servizi",
+    "cases": "Cases (case history)",
     "contacts": "Contatti"
   },
   "modal": {
@@ -112,7 +112,7 @@
     "systemSupport": "Supporto del sistema"
   },
   "directions": {
-    "title": "La nostra competenza per il vostro prodotto IT",
+    "title": "La nostra competenza per i vostri prodotti IT",
     "advise": "Consigliamo le startup IT",
     "launch": "Lanciamo i progetti passo dopo passo",
     "help": "Vi aiutiamo ad entrare nel mercato"
@@ -128,10 +128,10 @@
     "others": "e altri"
   },
   "offer": {
-    "title": "Cosa offriamo"
+    "title": "Servizi"
   },
   "technologies": {
-    "title": "We are already working with entrepreneurs from different areas:",
+    "title": "Stiamo già lavorando con imprenditori provenienti da diversi settori:",
     "startup": "Strategia di startup/sviluppo del business",
     "landing": "Landing pages",
     "websites": "Siti web",
@@ -141,8 +141,8 @@
     "internetMarkets": "Negozi online"
   },
   "ourCases": {
-    "our": "I nostri",
-    "cases": "casi",
+    "our": "Case",
+    "cases": "history",
     "asset": {
       "title": "Asset",
       "description": "Sviluppo di un'applicazione per i residenti dei villaggi cottage."
@@ -172,12 +172,12 @@
       "description": "Sviluppo di un'applicazione per la generazione di immagini basata su Stable Diffusione."
     },
     "empty": {
-      "title": "Un posto per il vostro progetto"
+      "title": "Un posto dove svilupare I vostri progetti"
     }
   },
   "contacts": {
-    "title": "Restano domande?",
-    "description": "Compilate il modulo e vi contatteremo."
+    "title": "Hai altri domande?",
+    "description": "Ojjecto della requesto"
   },
   "footer": {
     "privacyPolicy": "Politica sulla privacy"
