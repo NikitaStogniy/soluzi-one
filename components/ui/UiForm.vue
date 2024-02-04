@@ -55,20 +55,10 @@
       size="small"
       type="submit"
       :is-expanded="true"
-      :is-disabled="isFormInvalid"
+      :is-disabled="isFormInvalid || isLoading"
     >
       {{ $t('button.leaveRequest') }}
     </UiButton>
-
-    <download-excel
-      class="ui-form__excel"
-      worksheet="My Worksheet"
-      name="filename.xls"
-      :fields="excelFields"
-      :data="displayedExcelData"
-    >
-      <span ref="excelTable" />
-    </download-excel>
 
     <ModalsContainer />
   </form>
@@ -92,13 +82,6 @@ interface FormParams {
   isPrivacyPolicyAccepted: boolean
 }
 
-const excelFields = {
-  name: "name",
-  phone: 'phone',
-  email: 'email',
-  topic: 'topic',
-}
-
 const formRules = {
   name: { required },
   phone: { required },
@@ -106,6 +89,7 @@ const formRules = {
   isPrivacyPolicyAccepted: { required }
 }
 
+const isLoading = ref(false);
 const form: FormParams = reactive({
   name: '',
   phone: '',
@@ -115,13 +99,6 @@ const form: FormParams = reactive({
 })
 
 const v$ = useVuelidate(formRules, form)
-const excelTable = ref(null)
-
-const displayedExcelData = computed(() => {
-  const { name, phone, email, topic } = form
-
-  return [{ name, phone, email, topic }]
-})
 
 const { open, close } = useModal({
   component: UiModal,
@@ -143,11 +120,28 @@ const clearForm = (): void => {
   form.isPrivacyPolicyAccepted = false
 }
 
-const openModal = (): void => {
-  if (excelTable.value)
-    (excelTable.value as HTMLElement).click()
+const openModal = async (): Promise<void> => {
+  const formDataString = `Name=${form.name}&Email=${form.email}&Phone=${form.phone}&Topic=${form.topic}`;
 
-  open()
+  isLoading.value = true;
+
+  try {
+    await fetch('https://script.google.com/macros/s/AKfycbzFpX7aD3z6pMSljiqQlFnLj2qalW3bmf7OJ_HYOwEmOM3j8OvE6JILsYg5dGVqFtM9/exec', {
+      mode: 'no-cors',
+      redirect: "follow",
+      method: "POST",
+      body: formDataString,
+      headers: {
+        "Content-Type": "text/plain;charset=utf-8",
+      },
+    });
+
+    open()
+  } catch (error) {
+    console.log(error);
+  } finally {
+    isLoading.value = false;
+  }
 }
 </script>
 
